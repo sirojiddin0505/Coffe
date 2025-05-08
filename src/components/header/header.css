@@ -1,0 +1,55 @@
+header{
+    background-image: url(../images/coffe.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* max-width: 1300px; */
+}
+.header__title{
+    width: 493px;
+    height: 145px;
+    font-family: Fraunces 9pt;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 72px;
+    color: rgba(254, 252, 247, 1);
+    margin-top: 90px;
+    margin-left: 70px;        
+}
+.header__text{
+    width: 445px;
+    height: 78px;
+    opacity: 0.8px;
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgba(254, 252, 247, 1); 
+    margin-left: 70px; 
+    margin-top: 30px;       
+}
+.header__btn{
+    width: 217px;
+    height: 56px;
+    font-family: Fraunces 9pt;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 25px; 
+    margin-top: 80px;
+    margin-left: 70px;
+    background-color: rgba(14, 135, 132, 1);
+    font-family: Fraunces 9pt;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 25px;  
+    color: rgba(254, 252, 247, 1);
+    border: none;
+    border-radius: 5px; 
+    transition: all 0.8s;     
+}
+.header__btn:hover{
+    border: 2px solid rgba(14, 135, 132, 1);
+    color: rgba(14, 135, 132, 1);
+    background-color: rgba(254, 252, 247, 1);
+    transition: all 1s;     
+}
