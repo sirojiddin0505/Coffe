@@ -1,0 +1,33 @@
+footer{
+    padding-top: 200px;
+    background-color: rgba(44, 52, 62, 1);
+}
+.footer__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.footer__right{
+    display: flex;
+    gap: 10px;
+}
+.icon{
+    width: 25px;
+    height: 25px;
+}
+.footer__link{
+    font-family: Barlow;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.92px;
+    color: rgba(131, 136, 143, 1);
+    padding: 0 10px;
+}
+@media screen and (max-width:670px) {
+    .footer__container{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+}

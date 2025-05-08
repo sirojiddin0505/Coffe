@@ -3,11 +3,11 @@ import React from 'react'
 const layout = () => {
   return (
     <div>
-        <header />
+        <Header />
         <main>
             <Outlet/>
         </main>
-        <footer/>
+        <Footer/>
     </div>
 )
 }
