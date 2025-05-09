@@ -1,21 +1,22 @@
+import React from 'react';
 import './App.css'
-import Nav from './components/navbar/nav'
-import Header from './components/header/header'
-import Hero from './components/hero/hero'
-import Main from './components/main/main'
-import Footer from './components/footer/footer'
-import Reacti from 'react'
+import { Route, Routes } from 'react-router-dom';
+
+import Layout from './layout/layout';
+import Home from './pages/home/home';
+import About from './pages/about/about';
+import Plan from './pages/plan/plan';
 
 function App() {
   return (
-    <>
-      <Nav/>
-      <Header/>
-      <Hero/>
-      <Main/>
-      <Footer/>
-    </>
-  )
+    <Routes>
+      <Route path='/' element={<Layout />}>
+        <Route index element={<Home />} />
+        <Route path='about' element={<About />} />
+        <Route path='plan' element={<Plan />} />
+      </Route>
+    </Routes>
+  );
 }
 
-export default App
+export default App;

@@ -1,8 +1,9 @@
 import React from 'react'
 import './nav.css'
+import { NavLink } from 'react-router-dom'
 import logo from '../images/Logo.svg'
 
-const nav = () => {
+const Nav = () => {
   return (
     <nav>
         <div className="container nav__container">
@@ -10,9 +11,9 @@ const nav = () => {
                 <a href="#"><img src={logo} alt="logo bor" className="navbar__img"/></a>
             </div>
             <div className="nav__right">
-                <a href="#" className="nav__link">HOME</a>
-                <a href="#" className="nav__link">ABOUT US</a>
-                <a href="#" className="nav__link">CREATE YOUR PLANE</a>
+                <NavLink to={'/'} className={'nav__link'}>Home</NavLink>
+                <NavLink to={'/About'} className={'nav__link'}>About</NavLink>
+                <NavLink to={'/Plan'} className={'nav__link'}>Create Your Plane</NavLink>
             </div>
             <div className="hum__menu">≡</div>
         </div>
@@ -20,4 +21,4 @@ const nav = () => {
 )
 }
 
-export default nav
+export default Nav

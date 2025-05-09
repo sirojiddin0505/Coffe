@@ -1,5 +1,4 @@
 footer{
-    padding-top: 200px;
     background-color: rgba(44, 52, 62, 1);
 }
 .footer__container{
@@ -10,11 +9,16 @@ footer{
 }
 .footer__right{
     display: flex;
-    gap: 10px;
+    gap: 15px;
 }
 .icon{
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
+    color: white;
+}
+.icon:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
 }
 .footer__link{
     font-family: Barlow;
@@ -25,6 +29,11 @@ footer{
     color: rgba(131, 136, 143, 1);
     padding: 0 10px;
 }
+.footer__link:hover{
+    color: rgb(213, 215, 218);
+    transition: 0.4s;
+}
+
 @media screen and (max-width:670px) {
     .footer__container{
         flex-direction: column;

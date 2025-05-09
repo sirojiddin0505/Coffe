@@ -30,8 +30,8 @@
     line-height: 26px;
     max-width: 255px;
 }
-@media screen and (max-width:500px) {
+@media screen and (max-width:750px) {
     .hero__list{
-        row-gap: 30px;
+        row-gap: 50px;
     }
 }

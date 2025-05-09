@@ -6,10 +6,10 @@
 }
 .nav__link{
     font-weight: 700;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 15px;
     letter-spacing: 0.92px;
-    padding: 10px 16px;
+    padding: 0px 16px;
     color: rgba(131, 136, 143, 1);
 }
 .nav__link:hover{
