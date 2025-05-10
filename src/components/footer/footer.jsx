@@ -1,14 +1,14 @@
 import React from 'react'
 import './footer.css'
 import { FaFacebook, FaTelegram, FaInstagram} from "react-icons/fa";
-import  Footerlogo from '../images/footer.logo.svg'
+import footerlogo from '../footer/images/footer.logo.svg'
 
 const Footer = () => {
   return (
     <footer>
         <div className="container footer__container">
             <div className="footer__logo">
-                <img src={Footerlogo} alt="" className="footer__logo" />
+                <img src={footerlogo} alt="" className="footer__logo" />
             </div>
             <div className="footer__center">
                 <a href="" className="footer__link">HOME</a>
