@@ -2,7 +2,7 @@ import React from "react";
 import './hero.css'
 import hero1 from '../images/hero1.svg'
 
-const hero = ()=>{
+const Hero = ()=>{
     return(
     <div className="hero">
         <div className="container hero__container">
@@ -32,4 +32,4 @@ const hero = ()=>{
     </div>
     )
 }
-export default hero
+export default Hero

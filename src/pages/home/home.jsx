@@ -1,8 +1,9 @@
 import React from 'react'
 
-const Home = () => {
+
+const Home = () => {  
   return (
-    <div>home</div>
+    <div></div>
   )
 }
 

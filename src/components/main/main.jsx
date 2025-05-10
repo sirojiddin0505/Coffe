@@ -4,7 +4,7 @@ import main3 from '../images/main3.svg'
 import main4 from '../images/main4.svg'
 
 
-const main = () =>{
+const Main = () =>{
     return(
     <div className="main">
         <div className="container main__container">
@@ -33,4 +33,4 @@ const main = () =>{
    </div>
     )
 }
-export default main
+export default Main

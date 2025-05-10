@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding: 10px; */
 }
 .nav__link{
     font-weight: 700;
@@ -13,11 +12,8 @@
     color: rgba(131, 136, 143, 1);
 }
 .nav__link:hover{
-    color: rgb(27, 27, 28);
+    color: rgb(68, 68, 70);
     transition: all 0.4s;
-    /* box-shadow: 1px 1px 1px rgb(111, 110, 110);
-    border: none;
-    border-radius: 20px; */
 }
 .hum__menu{
     display: none;

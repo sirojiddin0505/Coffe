@@ -8,10 +8,16 @@
     color:  rgba(131, 136, 143, 1);
     padding: 40px 0;
 }
+.hr__boxs{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
 hr{
     max-width: 100%;
-    width: 760px;
+    width: 250px;
     height: 2px;
+    border: none;
     border-radius: 2px;    
     background-color: rgba(253, 214, 186, 1);
 }

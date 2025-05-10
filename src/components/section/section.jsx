@@ -1,11 +1,16 @@
 import './section.css'
+import { FaRegCircle } from "react-icons/fa";
+
 const Section = () => {
   return (
     <div className='section'>
         <div className="container section__container">
             <h2 className="section__title">How it works</h2>
-            
-            <hr />
+            <div className="hr__boxs">
+                <FaRegCircle/> <hr />
+                <FaRegCircle/> <hr />
+                <FaRegCircle/> <hr />
+            </div>
             <div className="section__box">
                 <div className="boxs">
                     <p className="section__number">01</p>
