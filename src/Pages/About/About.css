@@ -1,0 +1,9 @@
+header{
+    background-image: url(../images/About1.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    margin-top: 70px;
+    padding: 100px 80px;
+}

@@ -1,0 +1,39 @@
+nav{
+    background-color: rgb(243, 237, 237);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    padding: 10px 0;
+}
+.nav__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__link{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 15px;
+    letter-spacing: 0.92px;
+    padding: 0px 16px;
+    color: rgba(131, 136, 143, 1);
+}
+.nav__link:hover{
+    color: rgb(68, 68, 70);
+    transition: all 0.4s;
+}
+.hum__menu{
+    display: none;
+    font-size: 40px;
+    font-weight: bold;
+}
+@media screen and (max-width:630px) {
+    .nav__link{
+        display: none;
+    }
+    .hum__menu{
+        display: block;
+    }
+}

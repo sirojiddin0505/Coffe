@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Barlow;
+    font-family: Fraunces 9pt;
+  }
+  .container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 10px;
+    /* border: 1px solid red; */
+  }

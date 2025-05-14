@@ -1,0 +1,42 @@
+footer{
+    background-color: rgba(44, 52, 62, 1);
+}
+.footer__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.footer__right{
+    display: flex;
+    gap: 15px;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    color: white;
+}
+.icon:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.footer__link{
+    font-family: Barlow;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.92px;
+    color: rgba(131, 136, 143, 1);
+    padding: 0 10px;
+}
+.footer__link:hover{
+    color: rgb(213, 215, 218);
+    transition: 0.4s;
+}
+
+@media screen and (max-width:670px) {
+    .footer__container{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+}
